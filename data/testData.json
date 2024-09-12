@@ -1,0 +1,12 @@
+{
+    "user": {
+      "username": "Actual User",
+      "username1": "Test User",
+      "password": "Test@123"
+    },
+    "app": {
+      "version": "1.0",
+      "platform": "Android"
+    }
+  }
+  

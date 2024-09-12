@@ -1,0 +1,39 @@
+{
+  "name": "webdriverio-typescript-appium",
+  "version": "1.0.0",
+  "description": "WebdriverIO project with TypeScript and Appium for Android mobile testing",
+  "scripts": {
+    "wdio": "npx wdio run ./wdio.conf.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.17",
+    "@types/node": "^22.5.0",
+    "@types/pg": "^8.11.9",
+    "@wdio/allure-reporter": "^9.0.4",
+    "@wdio/appium-service": "^9.0.7",
+    "@wdio/cli": "^9.0.7",
+    "@wdio/config": "^9.0.6",
+    "@wdio/globals": "^9.0.7",
+    "@wdio/lighthouse-service": "^9.0.7",
+    "@wdio/local-runner": "^9.0.7",
+    "@wdio/logger": "^9.0.4",
+    "@wdio/mocha-framework": "^9.0.6",
+    "@wdio/spec-reporter": "^9.0.7",
+    "@wdio/types": "^9.0.4",
+    "@wdio/visual-service": "^6.0.0",
+    "appium-uiautomator2-driver": "^2.29.11",
+    "axios": "^1.7.7",
+    "chai": "^5.1.1",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "webdriver-image-comparison": "^7.0.0",
+    "webdriverio": "^9.0.7",
+    "ws": "^8.18.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "pg": "^8.12.0"
+  }
+}

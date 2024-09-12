@@ -1,0 +1,24 @@
+ {
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [
+          "node",
+          "@wdio/globals/types",
+          "@wdio/mocha-framework",
+          "@wdio/lighthouse-service"
+      ]
+  },
+  "include": [
+    "src/**/*.ts"
+    ,"src/types/**/*.d.ts" // Make sure this path matches the location of your TypeScript files
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
